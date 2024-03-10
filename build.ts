@@ -24,7 +24,6 @@ const theme = (c: Colors<string>) => ({
     "incorrect-subtle": c.red,
     "subtle-separator": "none",
     "subtle-bg": "none",
-    "secondary": null,
     "recursive-base": c.text,
   },
   "command-point": {
