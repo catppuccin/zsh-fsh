@@ -23,6 +23,7 @@ const theme = (c: Colors<string>) => ({
     "correct-subtle": c.lavender,
     "incorrect-subtle": c.red,
     "subtle-separator": "none",
+    "secondary": "",
     "subtle-bg": "none",
     "recursive-base": c.text,
   },
