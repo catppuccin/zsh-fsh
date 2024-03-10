@@ -1,0 +1,17 @@
+{
+  "version": "3",
+  "redirects": {
+    "https://deno.land/x/catppuccin/mod.ts": "https://deno.land/x/catppuccin@v1.1.0/mod.ts"
+  },
+  "remote": {
+    "https://deno.land/std@0.219.1/assert/assert.ts": "bec068b2fccdd434c138a555b19a2c2393b71dfaada02b7d568a01541e67cdc5",
+    "https://deno.land/std@0.219.1/assert/assertion_error.ts": "9f689a101ee586c4ce92f52fa7ddd362e86434ffdf1f848e45987dc7689976b8",
+    "https://deno.land/std@0.219.1/cli/parse_args.ts": "475b3edc8105c9acea09b83b100afc383d7bddbba9828da3f0c4adced006607a",
+    "https://deno.land/std@0.219.1/ini/ini_map.ts": "a66b1ab22d62022f70b192f02c5b2ba89baf5e061b60acaa12a362fd160bc437",
+    "https://deno.land/std@0.219.1/ini/mod.ts": "229cd9a39943d301528ae2c89351ad9f00249048653a0a03702818720619af8e",
+    "https://deno.land/std@0.219.1/ini/parse.ts": "d61d62e14d5d515d8ba4e67a87872d655e2e93efe5dbffd0fdbc54ba7021029a",
+    "https://deno.land/std@0.219.1/ini/stringify.ts": "1af05ee8172cd8d9fe70487e09d28249f40225f24dc458140d4b42785054e3f6",
+    "https://deno.land/x/catppuccin@v1.1.0/mod.ts": "47f1e4ea5c1729259dc621b1d4b1277cb008db5743d01ce845254ea2b1a8835b",
+    "https://deno.land/x/catppuccin@v1.1.0/palette.json": "0cddd2826c55c631f626a00562d0ee1f15de38893d4a7ddf4b06c9e0440fefef"
+  }
+}
