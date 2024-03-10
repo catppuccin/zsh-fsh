@@ -1,4 +1,4 @@
-#!/usr/bin/env deno run --allow-write=./themes
+#!/usr/bin/env -S deno run --allow-write=./themes
 
 import {
   Colors,
