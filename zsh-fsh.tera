@@ -1,0 +1,89 @@
+---
+whiskers:
+  version: "2.0.0"
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{ flavor.identifier }}.ini"
+---
+{%- set palette = flavor.colors -%}
+
+[base]
+default=#{{ palette.text.hex }}
+unknown-token=#{{ palette.red.hex }},bold
+commandseparator=#{{ palette.teal.hex }}
+redirection=#{{ palette.teal.hex }}
+here-string-tri=#{{ palette.subtext1.hex }}
+here-string-text=#{{ palette.subtext1.hex }}
+here-string-var=#{{ palette.subtext1.hex }}
+exec-descriptor=none
+comment=#{{ palette.overlay0.hex }}
+correct-subtle=#{{ palette.lavender.hex }}
+incorrect-subtle=#{{ palette.red.hex }}
+subtle-separator=none
+secondary=
+subtle-bg=none
+recursive-base=#{{ palette.text.hex }}
+
+[command-point]
+reserved-word=#{{ palette.mauve.hex }}
+subcommand=#{{ palette.sapphire.hex }}
+alias=#{{ palette.blue.hex }}
+suffix-alias=#{{ palette.blue.hex }}
+global-alias=#{{ palette.blue.hex }}
+builtin=#{{ palette.mauve.hex }}
+function=#{{ palette.blue.hex }}
+command=#{{ palette.blue.hex }}
+precommand=#{{ palette.mauve.hex }}
+hashed-command=#{{ palette.blue.hex }}
+single-sq-bracket=#{{ palette.yellow.hex }}
+double-sq-bracket=#{{ palette.yellow.hex }}
+double-paren=#{{ palette.green.hex }}
+
+[paths]
+path=#{{ palette.rosewater.hex }}
+pathseparator=#{{ palette.rosewater.hex }}
+path-to-dir=#{{ palette.rosewater.hex }}
+globbing=#{{ palette.pink.hex }}
+globbing-ext=none
+
+[brackets]
+paired-bracket=bold
+bracket-level-1=#{{ palette.red.hex }}
+bracket-level-2=#{{ palette.yellow.hex }}
+bracket-level-3=#{{ palette.sapphire.hex }}
+
+[arguments]
+single-hyphen-option=#{{ palette.teal.hex }}
+double-hyphen-option=#{{ palette.teal.hex }}
+back-quoted-argument=#{{ palette.teal.hex }}
+single-quoted-argument=#{{ palette.green.hex }}
+double-quoted-argument=#{{ palette.green.hex }}
+dollar-quoted-argument=#{{ palette.green.hex }}
+optarg-string=#{{ palette.green.hex }}
+optarg-number=#{{ palette.peach.hex }}
+
+[in-string]
+back-dollar-quoted-argument=#{{ palette.peach.hex }}
+back-or-dollar-double-quoted-argument=#{{ palette.peach.hex }}
+
+[other]
+variable=#{{ palette.peach.hex }}
+assign=none
+assign-array-bracket=none
+history-expansion=none
+
+[math]
+mathvar=#{{ palette.pink.hex }}
+mathnum=#{{ palette.peach.hex }}
+matherr=#{{ palette.red.hex }},bold
+
+[for-loop]
+forvar=#{{ palette.text.hex }}
+fornum=#{{ palette.peach.hex }}
+foroper=#{{ palette.blue.hex }}
+forsep=#{{ palette.blue.hex }}
+
+[case]
+case-input=#{{ palette.peach.hex }}
+case-parentheses=#{{ palette.overlay2.hex }}
+case-condition=#{{ palette.mauve.hex }}
